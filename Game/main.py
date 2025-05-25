@@ -10,7 +10,7 @@ if screen_width > 1600 or screen_height > 1200:
 screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Main Menu")
 
-image_path = r"Web\MainMenu.png"
+image_path = r"assets\MainMenu.png"
 try:
     background = pygame.image.load(image_path)
     background = pygame.transform.scale(background, (screen_width, screen_height))
